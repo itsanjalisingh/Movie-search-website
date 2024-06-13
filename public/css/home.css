@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  font-family: sans-serif;
+}
+
+h3 {
+  color: black;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+
+.Nav {
+  overflow: hidden;
+  background: rgb(230, 26, 24);
+  background: linear-gradient(90deg,
+      rgba(230, 26, 24, 1) 0%,
+      rgb(245, 69, 34) 100%);
+  padding: 30px;
+}
+.Nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  -webkit-text-fill-color: white;
+}
+.Nav .button {
+  float: right;
+  margin-left: 10rem;
+  transition: transform 0.3s ease;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.Nav .button:hover {
+  transform: scale(1.1);
+
+}
+
+.Nav .Search-Container {
+  float: left;
+  vertical-align: middle;
+  transition: transform 0.3s ease;
+}
+
+.Nav .Search-Container:hover {
+  transform: scale(1.05);
+}
+
+.button {
+  background-color: rgb(255, 47, 0);
+  border: none;
+  color: white ;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10%;
+}
+
+form {
+  background-color: #601000;
+  width: 400px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  border: 2px solid white;
+  -webkit-text-fill-color: white;
+}
+input {
+  all: unset;
+  font: 15px system-ui;
+  color: white;
+  height: 100%;
+  width: 100%;
+  padding: 5px 10px;
+}
+
+.thumbnail {
+  height: 350px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px 10px;
+}
+
+.card {
+  border-radius: 25px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
+#refreshButton {
+  transition: transform 0.3s ease;
+
+}
+
+#refreshButton:hover {
+  transform: scale(1.1);
+}
+
+
+footer {
+  background: linear-gradient(to right, rgb(21, 31, 48), black);
+  color: white;
+  display: flex;
+  padding: 0.3rem 5%;
+  align-items: center;
+  justify-content: space-between;
+  /* Positions items at the beginning and end of the container */
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  /* Remove default list styling */
+}
+
+footer ul li {
+  margin-left: 10px;
+  /* Add spacing between icons if needed */
+}
+footer h4 {
+  flex: 3 1 40rem;
+  font-size: calc(1.4rem + 1vw);
+}
